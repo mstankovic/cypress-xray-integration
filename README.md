@@ -37,8 +37,9 @@ module.exports = defineConfig({
     },
     env: {
       xray: {
+        serverUrl: "YOUR_XRAT_SERVER"
         testPlan: "YOUR_TEST_PLAN_ID",
-        testExecution: "YOUR_TEST_EXECUTION_ID", // Optional, leave blank to create new
+        testExecution: "YOUR_TEST_EXECUTION_ID", // Optional, leave blank to create new execution
         token: "YOUR_XRAY_API_TOKEN"
       }
     }
@@ -46,7 +47,7 @@ module.exports = defineConfig({
 });
 
 ```
-Replace YOUR_TEST_PLAN_ID, YOUR_TEST_EXECUTION_ID and YOUR_XRAY_API_TOKEN
+Replace YOUR_XRAT_SERVER, YOUR_TEST_PLAN_ID, YOUR_TEST_EXECUTION_ID and YOUR_XRAY_API_TOKEN
 
 ## Test Configuration
 To ensure that test results are correctly linked to the appropriate Xray test cases, you must include the Xray test case ID within the title of each <strong>it</strong> block in your test specifications. Here's an example:

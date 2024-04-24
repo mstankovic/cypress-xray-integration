@@ -1,6 +1,6 @@
 {
   "name": "cypress-xray-integration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This Cypress plugin provides seamless integration with Xray for test management in Jira. It automates the creation and updating of test executions based on the results of Cypress test runs, allowing you to track automated test executions directly within Xray.",
   "main": "index.js",
   "scripts": {
