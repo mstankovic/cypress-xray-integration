@@ -37,7 +37,7 @@ module.exports = defineConfig({
     },
     env: {
       xray: {
-        serverUrl: "YOUR_XRAT_SERVER"
+        serverUrl: "YOUR_XRAT_SERVER",
         testPlan: "YOUR_TEST_PLAN_ID",
         testExecution: "YOUR_TEST_EXECUTION_ID", // Optional, leave blank to create new execution
         token: "YOUR_XRAY_API_TOKEN"
