@@ -6,12 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstankovic/cypress-xray-integration.git"
+  },
   "keywords": [
     "cypress",
     "xray",
     "upload",
     "results"
-],
+  ],
   "author": "Milos Stankovic",
   "license": "ISC",
   "dependencies": {
@@ -19,5 +23,9 @@
   },
   "devDependencies": {
     "cypress": ">=10.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/mstankovic/cypress-xray-integration/issues"
+  },
+  "homepage": "https://github.com/mstankovic/cypress-xray-integration#readme"
 }
