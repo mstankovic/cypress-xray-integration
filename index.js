@@ -85,7 +85,7 @@ module.exports = (on, config) => {
                 testKey: xrayId,
                 start: new Date().toISOString(),
                 finish: new Date().toISOString(),
-                comment: test.displayError || "Test execution",
+                comment: test.displayError || "Executed by Automation Framework",
                 status: test.state === 'failed' ? 'FAIL' : 'PASS'
             };
         });
